@@ -4,7 +4,7 @@ import { URL } from './constants';
 
 function App() {
 
-  const [question , setQuestion] = useState(''); //state change
+  const [question , setQuestion] = useState(''); 
   const [result , setResult] = useState(undefined);
 
   const payload = {
